@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryption App</title>
+</head>
+<body>
+    <h1>Text Encryption and Decryption</h1>
+
+    <label for="inputText">Enter Text:</label>
+    <textarea id="inputText" rows="4" cols="50"></textarea><br><br>
+
+    <label for="password">Enter Password:</label>
+    <input type="password" id="password" required><br><br>
+
+    <button onclick="encryptText()">Encrypt</button>
+    <button onclick="decryptText()">Decrypt</button><br><br>
+
+    <label for="outputText">Output:</label>
+    <textarea id="outputText" rows="4" cols="50" readonly></textarea><br><br>
+
+    <script src="script.js"></script>
+</body>
+</html>
